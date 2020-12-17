@@ -1,0 +1,19 @@
+$colour-primary: red !default;
+$colour-secondary: #001534 !default;
+$colour-accent: #D6FFF5 !default;
+$colour-white: #fff !default;
+$colour-invalid: #DB464B !default;
+$colour-police: black !default;
+
+$breakpoints: (
+    "phone": 767px,
+    "tablette": 768px,
+    "big tablette": 992px,
+    "laptop MDPI": 1025px,
+    "laptop HIDPI": 1281px, 
+    "desktop": 1601px
+) !default;
+
+$heading-shadow-size: .55rem;
+$layout-margin: 6rem;
+$grid-gutter: $layout-margin * .25;
