@@ -8,14 +8,25 @@ $color-seven: #353535;
 $color-eight: #269e80;
 $color-hover: #99e2d0;
 
+$font-tablette: 50%;
+$font-laptop: 56.25%;
+
 $breakpoints: (
-    "phone": 767px,
-    "tablette": 768px,
-    "big tablette": 992px,
-    "laptop MDPI": 1025px,
-    "laptop HIDPI": 1281px, 
-    "desktop": 1601px
+    "phone-screen": 767px,
+    "tablette-screen": 768px,
+    "big-tablette-screen": 992px,
+    "laptop-MDPI-screen": 1025px,
+    "laptop-HIDPI-screen": 1281px, 
+    "desktop-screen": 1601px
 ) !default;
+
+$font-custom: 'raleway' !default;
+$font-custom-italic:'raleway_italic';
+$font:sans-serif;
+
+
+
+
 
 $heading-shadow-size: .55rem;
 $layout-margin: 6rem;

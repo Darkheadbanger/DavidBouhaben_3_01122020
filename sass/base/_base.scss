@@ -1,3 +1,14 @@
+#main_wrapper {
+    margin: auto;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+
+
+
 *,
 *::after,
 *::before {
@@ -9,13 +20,28 @@
 html {
     // 10px div by def of 16px
     font-size: 62.5%;
-}
 
-#main_wrapper {
-    margin: auto;
-}
+    @include phone {
+        font-size:75%;
+    }
 
-body {
-    box-sizing: border-box;
-    background: $colour-white;
+    @include big-tablette-screen {
+        font-size: $font-tablette;
+    }
+
+    @include tablette-screen {
+        font-size: $font-tablette;
+    }
+
+    @include laptop-HIDPI-screen {
+        font-size:$font-laptop;
+    }
+
+    @include laptop-MDPI-screen {
+        font-size:$font-laptop;
+    }
+
+    @include desktop-screen {
+        font-size: 75%;
+    }
 }

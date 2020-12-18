@@ -1,5 +1,7 @@
+
+
 body {
-    font-family: 'raleway', sans-serif;
+    font-family: $font-custom, $font;
     color: $colour-primary;
     font-size: 2rem;
     font-weight: 100;
@@ -7,32 +9,28 @@ body {
 }
 
 h1 {
-    font-family: 'raleway', sans-serif;
     font-weight: 900;
     font-size: 5rem;
     font-style: italic;
 }
 
 h2 {
-    font-family: 'raleway', sans-serif;
     font-weight: 900;
     font-size: 5rem;
     font-style: italic;
 }
 
 h3 {
-    font-family: 'raleway', sans-serif;
     font-weight: 900;
     font-size: 5rem;
     font-style: italic;
 }
 
 h4 {
-    font-family: 'raleway', sans-serif;
     font-weight: 900;
     font-size: 5rem;
     font-style: italic;
-}
+} /*utilisation d'extension
 
 /*
 textarea {

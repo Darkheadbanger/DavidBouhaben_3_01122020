@@ -1,3 +1,49 @@
+@mixin phone{
+    @media screen and (max-width: map-get($breakpoints, phone-screen)){
+        @content;
+    }
+}
+
+@mixin fontface {
+    
+}
+
+/* 
+@mixin responsive ($breakpoints) { 
+    @if $breakpoints <= map-get($breakpoints, phone-screen) {
+        @media screen and (max-width: map-get($breakpoints, phone-screen)){
+            @content;
+        }
+    }
+    @if $breakpoints <= map-get($breakpoints, tablette-screen) {
+        @media screen and (max-width: map-get($breakpoints, tablette-screen)){
+            @content;
+        }
+    }
+    @if $breakpoints <= map-get($breakpoints, big-tablette-screen) {
+        @media screen and (max-width: map-get($breakpoints, big-tablette-screen)){
+            @content;
+        }
+    }
+    @if $breakpoints <= laptop-MDPI-screen {
+        @media screen and (max-width: map-get($breakpoints, laptop-MDPI-screen)){
+            @content;
+        }
+    }
+    @if $breakpoints <= laptop-HIDPI-screen {
+        @media screen and (max-width: map-get($breakpoints, laptop-HIDPI-screen)){
+            @content;
+        }
+    }
+    @if $breakpoints <= desktop-screen {
+        @media screen and (max-width: map-get($breakpoints, desktop-screen)){
+            @content;
+        }
+    }
+}*/
+
+
+
 @mixin heading-shadow($colour:lightness-shift($colour-primary), $offset: $heading-shadow-size){
     text-shadow: $offset $offset $colour;
 }
