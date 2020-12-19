@@ -1,4 +1,16 @@
 .header {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    img {
+        width:100%;
+        height: auto;
+    }
+}
+
+/*.header {
     height: 10rem;
     display: flex;
     align-items: center;
@@ -10,4 +22,4 @@
         margin-left: 10rem;
         @include heading-shadow($colour-white);
     }
-}
+}*/

@@ -6,9 +6,6 @@ body {
     box-sizing: border-box;
 }
 
-
-
-
 *,
 *::after,
 *::before {
@@ -22,26 +19,6 @@ html {
     font-size: 62.5%;
 
     @include phone {
-        font-size:75%;
-    }
-
-    @include big-tablette-screen {
-        font-size: $font-tablette;
-    }
-
-    @include tablette-screen {
-        font-size: $font-tablette;
-    }
-
-    @include laptop-HIDPI-screen {
-        font-size:$font-laptop;
-    }
-
-    @include laptop-MDPI-screen {
-        font-size:$font-laptop;
-    }
-
-    @include desktop-screen {
-        font-size: 75%;
+        font-size:43.75%;
     }
 }
