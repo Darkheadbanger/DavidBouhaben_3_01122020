@@ -1,10 +1,11 @@
-/* Error: Undefined variable.
+/* Error: Undefined mixin.
  *    ,
- * 16 |     background: $colour-secondary;
- *    |                 ^^^^^^^^^^^^^^^^^
+ * 28 | /     @include big-tablette-screen {
+ * 29 | |         font-size: $font-tablette;
+ * 30 | \     }
  *    '
- *   sass\base\_base.scss 16:17  @import
- *   sass\main.scss 6:9          root stylesheet */
+ *   sass\base\_base.scss 28:5  @import
+ *   sass\main.scss 6:9         root stylesheet */
 
 body::before {
   font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
@@ -14,5 +15,5 @@ body::before {
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: "Error: Undefined variable.\a    \2577 \a 16 \2502      background: $colour-secondary;\a    \2502                  ^^^^^^^^^^^^^^^^^\a    \2575 \a   sass\\base\\_base.scss 16:17  @import\a   sass\\main.scss 6:9          root stylesheet";
+  content: "Error: Undefined mixin.\a    \2577 \a 28 \2502  \250c      @include big-tablette-screen {\a 29 \2502  \2502          font-size: $font-tablette;\a 30 \2502  \2514      }\a    \2575 \a   sass\\base\\_base.scss 28:5  @import\a   sass\\main.scss 6:9         root stylesheet";
 }
